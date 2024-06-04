@@ -403,3 +403,23 @@
 [2024-06-04T01:04:14.201+0000] {logging_mixin.py:188} INFO - [2024-06-04T01:04:14.200+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_info_ETL.py
 [2024-06-04T01:04:14.839+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_info_ETL.py
 [2024-06-04T01:04:14.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_info_ETL.py took 0.668 seconds
+[2024-06-04T01:04:45.805+0000] {processor.py:161} INFO - Started process (PID=14261) to work on /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:04:45.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_info_ETL.py for tasks to queue
+[2024-06-04T01:04:45.809+0000] {logging_mixin.py:188} INFO - [2024-06-04T01:04:45.808+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:04:46.568+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:04:46.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_info_ETL.py took 0.791 seconds
+[2024-06-04T01:05:17.174+0000] {processor.py:161} INFO - Started process (PID=14333) to work on /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:05:17.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_info_ETL.py for tasks to queue
+[2024-06-04T01:05:17.182+0000] {logging_mixin.py:188} INFO - [2024-06-04T01:05:17.181+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:05:17.900+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:05:17.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_info_ETL.py took 0.752 seconds
+[2024-06-04T01:05:48.704+0000] {processor.py:161} INFO - Started process (PID=14405) to work on /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:05:48.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_info_ETL.py for tasks to queue
+[2024-06-04T01:05:48.708+0000] {logging_mixin.py:188} INFO - [2024-06-04T01:05:48.708+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:05:49.370+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:05:49.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_info_ETL.py took 0.688 seconds
+[2024-06-04T01:06:19.618+0000] {processor.py:161} INFO - Started process (PID=14485) to work on /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:06:19.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_info_ETL.py for tasks to queue
+[2024-06-04T01:06:19.638+0000] {logging_mixin.py:188} INFO - [2024-06-04T01:06:19.637+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:06:21.547+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_info_ETL.py
+[2024-06-04T01:06:21.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_info_ETL.py took 1.971 seconds
