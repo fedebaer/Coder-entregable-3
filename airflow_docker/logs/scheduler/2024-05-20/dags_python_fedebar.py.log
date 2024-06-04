@@ -1,0 +1,751 @@
+[2024-05-20 23:33:29,804] {processor.py:153} INFO - Started process (PID=4203) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:33:29,804] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:33:29,805] {logging_mixin.py:115} INFO - [2024-05-20 23:33:29,805] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:33:29,857] {logging_mixin.py:115} INFO - [2024-05-20 23:33:29,848] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:33:29,860] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:33:29,898] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.097 seconds
+[2024-05-20 23:34:00,750] {processor.py:153} INFO - Started process (PID=4265) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:34:00,751] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:34:00,751] {logging_mixin.py:115} INFO - [2024-05-20 23:34:00,751] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:34:00,764] {logging_mixin.py:115} INFO - [2024-05-20 23:34:00,762] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:34:00,765] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:34:00,795] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.048 seconds
+[2024-05-20 23:34:30,845] {processor.py:153} INFO - Started process (PID=4318) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:34:30,845] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:34:30,846] {logging_mixin.py:115} INFO - [2024-05-20 23:34:30,846] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:34:30,863] {logging_mixin.py:115} INFO - [2024-05-20 23:34:30,859] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:34:30,864] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:34:30,897] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.056 seconds
+[2024-05-20 23:35:01,047] {processor.py:153} INFO - Started process (PID=4380) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:35:01,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:35:01,048] {logging_mixin.py:115} INFO - [2024-05-20 23:35:01,048] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:35:01,070] {logging_mixin.py:115} INFO - [2024-05-20 23:35:01,065] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:35:01,071] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:35:01,093] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.051 seconds
+[2024-05-20 23:35:31,566] {processor.py:153} INFO - Started process (PID=4443) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:35:31,567] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:35:31,568] {logging_mixin.py:115} INFO - [2024-05-20 23:35:31,568] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:35:31,586] {logging_mixin.py:115} INFO - [2024-05-20 23:35:31,583] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:35:31,588] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:35:31,615] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.052 seconds
+[2024-05-20 23:36:01,912] {processor.py:153} INFO - Started process (PID=4496) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:36:01,913] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:36:01,914] {logging_mixin.py:115} INFO - [2024-05-20 23:36:01,914] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:36:01,930] {logging_mixin.py:115} INFO - [2024-05-20 23:36:01,928] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:36:01,931] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:36:01,963] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.055 seconds
+[2024-05-20 23:36:32,261] {processor.py:153} INFO - Started process (PID=4558) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:36:32,261] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:36:32,262] {logging_mixin.py:115} INFO - [2024-05-20 23:36:32,262] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:36:32,280] {logging_mixin.py:115} INFO - [2024-05-20 23:36:32,278] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:36:32,281] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:36:32,305] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.047 seconds
+[2024-05-20 23:37:02,472] {processor.py:153} INFO - Started process (PID=4611) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:37:02,473] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:37:02,474] {logging_mixin.py:115} INFO - [2024-05-20 23:37:02,474] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:37:02,491] {logging_mixin.py:115} INFO - [2024-05-20 23:37:02,488] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:37:02,492] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:37:02,515] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.047 seconds
+[2024-05-20 23:37:32,729] {processor.py:153} INFO - Started process (PID=4673) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:37:32,729] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:37:32,730] {logging_mixin.py:115} INFO - [2024-05-20 23:37:32,730] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:37:32,747] {logging_mixin.py:115} INFO - [2024-05-20 23:37:32,745] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:37:32,748] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:37:32,769] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.043 seconds
+[2024-05-20 23:38:02,980] {processor.py:153} INFO - Started process (PID=4735) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:38:02,981] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:38:02,982] {logging_mixin.py:115} INFO - [2024-05-20 23:38:02,982] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:38:03,004] {logging_mixin.py:115} INFO - [2024-05-20 23:38:03,001] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:38:03,005] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:38:03,029] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.053 seconds
+[2024-05-20 23:38:33,281] {processor.py:153} INFO - Started process (PID=4788) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:38:33,283] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:38:33,284] {logging_mixin.py:115} INFO - [2024-05-20 23:38:33,284] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:38:33,316] {logging_mixin.py:115} INFO - [2024-05-20 23:38:33,311] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:38:33,318] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:38:33,361] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.085 seconds
+[2024-05-20 23:39:03,482] {processor.py:153} INFO - Started process (PID=4851) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:39:03,483] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:39:03,484] {logging_mixin.py:115} INFO - [2024-05-20 23:39:03,484] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:39:03,510] {logging_mixin.py:115} INFO - [2024-05-20 23:39:03,506] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:39:03,512] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:39:03,540] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.062 seconds
+[2024-05-20 23:39:34,432] {processor.py:153} INFO - Started process (PID=4913) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:39:34,440] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:39:34,442] {logging_mixin.py:115} INFO - [2024-05-20 23:39:34,442] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:39:34,487] {logging_mixin.py:115} INFO - [2024-05-20 23:39:34,468] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:39:34,490] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:39:34,540] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.113 seconds
+[2024-05-20 23:40:05,525] {processor.py:153} INFO - Started process (PID=4966) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:40:05,525] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:40:05,526] {logging_mixin.py:115} INFO - [2024-05-20 23:40:05,526] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:40:05,543] {logging_mixin.py:115} INFO - [2024-05-20 23:40:05,540] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:40:05,544] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:40:05,562] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.040 seconds
+[2024-05-20 23:40:36,490] {processor.py:153} INFO - Started process (PID=5028) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:40:36,491] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:40:36,492] {logging_mixin.py:115} INFO - [2024-05-20 23:40:36,492] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:40:36,511] {logging_mixin.py:115} INFO - [2024-05-20 23:40:36,508] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:40:36,512] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:40:36,532] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.045 seconds
+[2024-05-20 23:41:06,957] {processor.py:153} INFO - Started process (PID=5090) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:41:06,958] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:41:06,959] {logging_mixin.py:115} INFO - [2024-05-20 23:41:06,959] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:41:06,975] {logging_mixin.py:115} INFO - [2024-05-20 23:41:06,972] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:41:06,976] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:41:06,996] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.043 seconds
+[2024-05-20 23:41:37,132] {processor.py:153} INFO - Started process (PID=5143) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:41:37,133] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:41:37,134] {logging_mixin.py:115} INFO - [2024-05-20 23:41:37,134] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:41:37,152] {logging_mixin.py:115} INFO - [2024-05-20 23:41:37,149] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:41:37,153] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:41:37,172] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.043 seconds
+[2024-05-20 23:42:07,329] {processor.py:153} INFO - Started process (PID=5205) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:42:07,330] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:42:07,331] {logging_mixin.py:115} INFO - [2024-05-20 23:42:07,331] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:42:07,349] {logging_mixin.py:115} INFO - [2024-05-20 23:42:07,346] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:42:07,351] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:42:07,369] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.044 seconds
+[2024-05-20 23:42:37,523] {processor.py:153} INFO - Started process (PID=5267) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:42:37,524] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:42:37,525] {logging_mixin.py:115} INFO - [2024-05-20 23:42:37,525] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:42:37,541] {logging_mixin.py:115} INFO - [2024-05-20 23:42:37,539] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:42:37,542] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:42:37,571] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.051 seconds
+[2024-05-20 23:43:07,848] {processor.py:153} INFO - Started process (PID=5329) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:43:07,849] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:43:07,849] {logging_mixin.py:115} INFO - [2024-05-20 23:43:07,849] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:43:07,867] {logging_mixin.py:115} INFO - [2024-05-20 23:43:07,865] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:43:07,868] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:43:07,893] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.048 seconds
+[2024-05-20 23:43:37,938] {processor.py:153} INFO - Started process (PID=5382) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:43:37,939] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:43:37,939] {logging_mixin.py:115} INFO - [2024-05-20 23:43:37,939] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:43:37,955] {logging_mixin.py:115} INFO - [2024-05-20 23:43:37,953] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:43:37,956] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:43:37,976] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.041 seconds
+[2024-05-20 23:44:08,793] {processor.py:153} INFO - Started process (PID=5444) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:44:08,794] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:44:08,795] {logging_mixin.py:115} INFO - [2024-05-20 23:44:08,795] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:44:08,811] {logging_mixin.py:115} INFO - [2024-05-20 23:44:08,808] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:44:08,812] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:44:08,833] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.042 seconds
+[2024-05-20 23:44:39,746] {processor.py:153} INFO - Started process (PID=5507) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:44:39,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:44:39,747] {logging_mixin.py:115} INFO - [2024-05-20 23:44:39,747] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:44:39,761] {logging_mixin.py:115} INFO - [2024-05-20 23:44:39,759] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:44:39,762] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:44:39,781] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.038 seconds
+[2024-05-20 23:45:09,819] {processor.py:153} INFO - Started process (PID=5560) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:45:09,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:45:09,820] {logging_mixin.py:115} INFO - [2024-05-20 23:45:09,820] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:45:09,836] {logging_mixin.py:115} INFO - [2024-05-20 23:45:09,833] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:45:09,836] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:45:09,855] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.039 seconds
+[2024-05-20 23:45:40,037] {processor.py:153} INFO - Started process (PID=5622) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:45:40,038] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:45:40,038] {logging_mixin.py:115} INFO - [2024-05-20 23:45:40,038] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:45:40,055] {logging_mixin.py:115} INFO - [2024-05-20 23:45:40,053] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:45:40,056] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:45:40,077] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.043 seconds
+[2024-05-20 23:46:10,148] {processor.py:153} INFO - Started process (PID=5685) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:46:10,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:46:10,150] {logging_mixin.py:115} INFO - [2024-05-20 23:46:10,150] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:46:10,164] {logging_mixin.py:115} INFO - [2024-05-20 23:46:10,162] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:46:10,166] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:46:10,198] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.053 seconds
+[2024-05-20 23:46:40,418] {processor.py:153} INFO - Started process (PID=5739) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:46:40,418] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:46:40,419] {logging_mixin.py:115} INFO - [2024-05-20 23:46:40,419] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:46:40,433] {logging_mixin.py:115} INFO - [2024-05-20 23:46:40,431] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:46:40,434] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:46:40,451] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.037 seconds
+[2024-05-20 23:47:10,574] {processor.py:153} INFO - Started process (PID=5801) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:47:10,575] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:47:10,576] {logging_mixin.py:115} INFO - [2024-05-20 23:47:10,576] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:47:10,594] {logging_mixin.py:115} INFO - [2024-05-20 23:47:10,591] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:47:10,594] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:47:10,617] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.046 seconds
+[2024-05-20 23:47:40,744] {processor.py:153} INFO - Started process (PID=5863) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:47:40,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:47:40,745] {logging_mixin.py:115} INFO - [2024-05-20 23:47:40,745] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:47:40,761] {logging_mixin.py:115} INFO - [2024-05-20 23:47:40,757] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:47:40,762] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:47:40,783] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.043 seconds
+[2024-05-20 23:48:10,993] {processor.py:153} INFO - Started process (PID=5916) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:48:10,994] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:48:10,995] {logging_mixin.py:115} INFO - [2024-05-20 23:48:10,995] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:48:11,010] {logging_mixin.py:115} INFO - [2024-05-20 23:48:11,008] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:48:11,011] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:48:11,035] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.044 seconds
+[2024-05-20 23:48:41,328] {processor.py:153} INFO - Started process (PID=5978) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:48:41,328] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:48:41,329] {logging_mixin.py:115} INFO - [2024-05-20 23:48:41,329] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:48:41,346] {logging_mixin.py:115} INFO - [2024-05-20 23:48:41,343] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:48:41,347] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:48:41,368] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.043 seconds
+[2024-05-20 23:49:11,522] {processor.py:153} INFO - Started process (PID=6040) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:49:11,523] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:49:11,524] {logging_mixin.py:115} INFO - [2024-05-20 23:49:11,523] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:49:11,537] {logging_mixin.py:115} INFO - [2024-05-20 23:49:11,535] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:49:11,538] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:49:11,557] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.038 seconds
+[2024-05-20 23:49:41,959] {processor.py:153} INFO - Started process (PID=6102) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:49:41,960] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:49:41,961] {logging_mixin.py:115} INFO - [2024-05-20 23:49:41,961] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:49:41,978] {logging_mixin.py:115} INFO - [2024-05-20 23:49:41,975] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:49:41,979] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:49:42,003] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.047 seconds
+[2024-05-20 23:50:12,157] {processor.py:153} INFO - Started process (PID=6155) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:50:12,158] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:50:12,159] {logging_mixin.py:115} INFO - [2024-05-20 23:50:12,159] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:50:12,176] {logging_mixin.py:115} INFO - [2024-05-20 23:50:12,172] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:50:12,177] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:50:12,198] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.044 seconds
+[2024-05-20 23:50:42,514] {processor.py:153} INFO - Started process (PID=6218) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:50:42,515] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:50:42,516] {logging_mixin.py:115} INFO - [2024-05-20 23:50:42,516] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:50:42,538] {logging_mixin.py:115} INFO - [2024-05-20 23:50:42,533] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:50:42,539] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:50:42,567] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.056 seconds
+[2024-05-20 23:51:12,747] {processor.py:153} INFO - Started process (PID=6280) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:51:12,749] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:51:12,750] {logging_mixin.py:115} INFO - [2024-05-20 23:51:12,749] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:51:12,775] {logging_mixin.py:115} INFO - [2024-05-20 23:51:12,768] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:51:12,776] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:51:12,801] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.057 seconds
+[2024-05-20 23:51:43,034] {processor.py:153} INFO - Started process (PID=6333) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:51:43,034] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:51:43,035] {logging_mixin.py:115} INFO - [2024-05-20 23:51:43,035] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:51:43,053] {logging_mixin.py:115} INFO - [2024-05-20 23:51:43,050] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:51:43,054] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:51:43,071] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.041 seconds
+[2024-05-20 23:52:13,126] {processor.py:153} INFO - Started process (PID=6395) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:52:13,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:52:13,127] {logging_mixin.py:115} INFO - [2024-05-20 23:52:13,127] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:52:13,143] {logging_mixin.py:115} INFO - [2024-05-20 23:52:13,140] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:52:13,144] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:52:13,166] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.043 seconds
+[2024-05-20 23:52:43,400] {processor.py:153} INFO - Started process (PID=6448) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:52:43,401] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:52:43,402] {logging_mixin.py:115} INFO - [2024-05-20 23:52:43,402] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:52:43,419] {logging_mixin.py:115} INFO - [2024-05-20 23:52:43,415] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:52:43,420] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:52:43,450] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.053 seconds
+[2024-05-20 23:53:13,590] {processor.py:153} INFO - Started process (PID=6510) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:53:13,591] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:53:13,592] {logging_mixin.py:115} INFO - [2024-05-20 23:53:13,592] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:53:13,617] {logging_mixin.py:115} INFO - [2024-05-20 23:53:13,614] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:53:13,618] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:53:13,637] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.050 seconds
+[2024-05-20 23:53:43,803] {processor.py:153} INFO - Started process (PID=6573) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:53:43,803] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:53:43,804] {logging_mixin.py:115} INFO - [2024-05-20 23:53:43,804] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:53:43,821] {logging_mixin.py:115} INFO - [2024-05-20 23:53:43,817] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:53:43,822] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:53:43,844] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.044 seconds
+[2024-05-20 23:54:14,746] {processor.py:153} INFO - Started process (PID=6626) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:54:14,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:54:14,748] {logging_mixin.py:115} INFO - [2024-05-20 23:54:14,748] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:54:14,776] {logging_mixin.py:115} INFO - [2024-05-20 23:54:14,770] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:54:14,777] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:54:14,803] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.061 seconds
+[2024-05-20 23:54:45,110] {processor.py:153} INFO - Started process (PID=6688) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:54:45,111] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:54:45,112] {logging_mixin.py:115} INFO - [2024-05-20 23:54:45,112] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:54:45,132] {logging_mixin.py:115} INFO - [2024-05-20 23:54:45,129] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:54:45,133] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:54:45,153] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.046 seconds
+[2024-05-20 23:55:15,280] {processor.py:153} INFO - Started process (PID=6750) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:55:15,281] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:55:15,282] {logging_mixin.py:115} INFO - [2024-05-20 23:55:15,282] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:55:15,321] {logging_mixin.py:115} INFO - [2024-05-20 23:55:15,313] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:55:15,323] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:55:15,364] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.089 seconds
+[2024-05-20 23:55:45,448] {processor.py:153} INFO - Started process (PID=6810) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:55:45,449] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:55:45,449] {logging_mixin.py:115} INFO - [2024-05-20 23:55:45,449] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:55:45,466] {logging_mixin.py:115} INFO - [2024-05-20 23:55:45,463] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:55:45,468] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:55:45,499] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.054 seconds
+[2024-05-20 23:56:15,696] {processor.py:153} INFO - Started process (PID=6865) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:56:15,696] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:56:15,697] {logging_mixin.py:115} INFO - [2024-05-20 23:56:15,697] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:56:15,711] {logging_mixin.py:115} INFO - [2024-05-20 23:56:15,709] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:56:15,712] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:56:15,731] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.039 seconds
+[2024-05-20 23:56:45,982] {processor.py:153} INFO - Started process (PID=6928) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:56:45,983] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:56:45,984] {logging_mixin.py:115} INFO - [2024-05-20 23:56:45,984] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:56:46,001] {logging_mixin.py:115} INFO - [2024-05-20 23:56:45,998] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:56:46,002] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:56:46,022] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.043 seconds
+[2024-05-20 23:57:16,267] {processor.py:153} INFO - Started process (PID=6990) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:57:16,268] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:57:16,268] {logging_mixin.py:115} INFO - [2024-05-20 23:57:16,268] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:57:16,283] {logging_mixin.py:115} INFO - [2024-05-20 23:57:16,280] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:57:16,284] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:57:16,307] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.043 seconds
+[2024-05-20 23:57:46,776] {processor.py:153} INFO - Started process (PID=7043) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:57:46,777] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:57:46,778] {logging_mixin.py:115} INFO - [2024-05-20 23:57:46,778] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:57:46,795] {logging_mixin.py:115} INFO - [2024-05-20 23:57:46,791] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:57:46,796] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:57:46,823] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.049 seconds
+[2024-05-20 23:58:17,081] {processor.py:153} INFO - Started process (PID=7105) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:58:17,082] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:58:17,082] {logging_mixin.py:115} INFO - [2024-05-20 23:58:17,082] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:58:17,100] {logging_mixin.py:115} INFO - [2024-05-20 23:58:17,098] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 6, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-05-20 23:58:17,101] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:58:17,122] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.044 seconds
+[2024-05-20 23:58:34,628] {processor.py:153} INFO - Started process (PID=7132) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:58:34,629] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:58:34,629] {logging_mixin.py:115} INFO - [2024-05-20 23:58:34,629] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:58:34,732] {logging_mixin.py:115} INFO - [2024-05-20 23:58:34,731] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 38
+    cur.execute("""
+      ^
+IndentationError: expected an indented block
+[2024-05-20 23:58:34,733] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:58:34,752] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.128 seconds
+[2024-05-20 23:59:05,056] {processor.py:153} INFO - Started process (PID=7185) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:59:05,056] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:59:05,057] {logging_mixin.py:115} INFO - [2024-05-20 23:59:05,057] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:59:05,078] {logging_mixin.py:115} INFO - [2024-05-20 23:59:05,077] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 38
+    cur.execute("""
+      ^
+IndentationError: expected an indented block
+[2024-05-20 23:59:05,079] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:59:05,101] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.048 seconds
+[2024-05-20 23:59:35,617] {processor.py:153} INFO - Started process (PID=7249) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:59:35,618] {processor.py:641} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-20 23:59:35,618] {logging_mixin.py:115} INFO - [2024-05-20 23:59:35,618] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:59:35,627] {logging_mixin.py:115} INFO - [2024-05-20 23:59:35,626] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 38
+    cur.execute("""
+      ^
+IndentationError: expected an indented block
+[2024-05-20 23:59:35,627] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-20 23:59:35,648] {processor.py:161} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.035 seconds

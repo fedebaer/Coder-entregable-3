@@ -1,0 +1,700 @@
+[2024-05-27T20:50:50.583+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:50:50.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:50:50.613+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:50:50.610+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:50:51.899+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:50:51.891+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:50:51.903+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:50:51.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 1.413 seconds
+[2024-05-27T20:51:22.640+0000] {processor.py:161} INFO - Started process (PID=113) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:51:22.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:51:22.644+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:51:22.644+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:51:22.930+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:51:22.921+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:51:22.933+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:51:22.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.326 seconds
+[2024-05-27T20:51:53.412+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:51:53.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:51:53.417+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:51:53.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:51:53.749+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:51:53.746+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:51:53.751+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:51:53.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.377 seconds
+[2024-05-27T20:52:23.877+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:52:23.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:52:23.880+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:52:23.880+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:52:24.229+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:52:24.226+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:52:24.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:52:24.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.380 seconds
+[2024-05-27T20:52:55.122+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:52:55.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:52:55.126+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:52:55.126+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:52:55.421+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:52:55.417+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:52:55.423+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:52:55.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.336 seconds
+[2024-05-27T20:53:26.284+0000] {processor.py:161} INFO - Started process (PID=408) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:53:26.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:53:26.287+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:53:26.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:53:26.599+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:53:26.594+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:53:26.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:53:26.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.346 seconds
+[2024-05-27T20:53:56.965+0000] {processor.py:161} INFO - Started process (PID=478) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:53:56.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:53:56.969+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:53:56.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:53:57.260+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:53:57.255+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:53:57.262+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:53:57.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.328 seconds
+[2024-05-27T20:54:27.413+0000] {processor.py:161} INFO - Started process (PID=549) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:54:27.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:54:27.417+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:54:27.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:54:27.872+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:54:27.867+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:54:27.874+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:54:27.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.538 seconds
+[2024-05-27T20:54:58.161+0000] {processor.py:161} INFO - Started process (PID=626) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:54:58.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:54:58.164+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:54:58.164+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:54:58.461+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:54:58.457+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:54:58.462+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:54:58.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.328 seconds
+[2024-05-27T20:55:10.377+0000] {processor.py:161} INFO - Started process (PID=685) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:55:10.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:55:10.380+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:55:10.380+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:55:10.747+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:55:10.742+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:55:10.749+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:55:10.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.396 seconds
+[2024-05-27T20:57:14.457+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:57:14.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:57:14.461+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:57:14.461+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:57:14.880+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:57:14.876+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:57:14.882+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:57:14.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.472 seconds
+[2024-05-27T20:57:45.098+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:57:45.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:57:45.102+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:57:45.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:57:45.363+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:57:45.352+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:57:45.366+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:57:45.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.299 seconds
+[2024-05-27T20:58:15.462+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:58:15.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:58:15.465+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:58:15.465+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:58:15.751+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:58:15.746+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:58:15.752+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:58:15.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.315 seconds
+[2024-05-27T20:58:46.053+0000] {processor.py:161} INFO - Started process (PID=265) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:58:46.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:58:46.056+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:58:46.056+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:58:46.300+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:58:46.294+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:58:46.301+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:58:46.328+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.282 seconds
+[2024-05-27T20:59:16.437+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:59:16.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:59:16.441+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:59:16.440+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:59:16.706+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:59:16.697+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:59:16.709+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:59:16.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.303 seconds
+[2024-05-27T20:59:46.962+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:59:46.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T20:59:46.966+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:59:46.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:59:47.272+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:59:47.267+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T20:59:47.273+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T20:59:47.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.341 seconds
+[2024-05-27T21:00:17.430+0000] {processor.py:161} INFO - Started process (PID=483) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:00:17.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:00:17.433+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:00:17.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:00:17.696+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:00:17.689+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:00:17.698+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:00:17.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.307 seconds
+[2024-05-27T21:00:47.845+0000] {processor.py:161} INFO - Started process (PID=553) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:00:47.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:00:47.848+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:00:47.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:00:48.140+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:00:48.137+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:00:48.142+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:00:48.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.323 seconds
+[2024-05-27T21:01:18.430+0000] {processor.py:161} INFO - Started process (PID=631) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:01:18.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:01:18.434+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:01:18.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:01:18.832+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:01:18.823+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:01:18.833+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:01:18.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.445 seconds
+[2024-05-27T21:01:49.014+0000] {processor.py:161} INFO - Started process (PID=701) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:01:49.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:01:49.017+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:01:49.017+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:01:49.311+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:01:49.303+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:01:49.314+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:01:49.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.330 seconds
+[2024-05-27T21:06:37.670+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:06:37.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:06:37.684+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:06:37.683+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:06:38.867+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:06:38.853+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:06:38.869+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:06:38.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 1.310 seconds
+[2024-05-27T21:07:09.467+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:07:09.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:07:09.487+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:07:09.487+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:07:10.625+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:07:10.610+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:07:10.629+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:07:10.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 1.252 seconds
+[2024-05-27T21:07:40.870+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:07:40.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:07:40.881+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:07:40.875+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:07:42.100+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:07:41.963+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:07:42.136+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:07:42.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 1.396 seconds
+[2024-05-27T21:08:12.447+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:08:12.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:08:12.462+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:08:12.461+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:08:13.169+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:08:13.159+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:08:13.173+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:08:13.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.780 seconds
+[2024-05-27T21:08:43.313+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:08:43.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:08:43.330+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:08:43.329+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:08:44.323+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:08:44.312+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:08:44.327+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:08:44.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 1.100 seconds
+[2024-05-27T21:09:14.717+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:09:14.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:09:14.727+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:09:14.727+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:09:15.561+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:09:15.553+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:09:15.563+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:09:15.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.904 seconds
+[2024-05-27T21:09:45.837+0000] {processor.py:161} INFO - Started process (PID=473) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:09:45.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:09:45.844+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:09:45.843+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:09:46.597+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:09:46.591+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:09:46.599+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:09:46.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.838 seconds
+[2024-05-27T21:10:16.834+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:10:16.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:10:16.839+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:10:16.838+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:10:17.492+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:10:17.487+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:10:17.494+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:10:17.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.716 seconds
+[2024-05-27T21:10:47.863+0000] {processor.py:161} INFO - Started process (PID=608) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:10:47.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:10:47.867+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:10:47.867+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:10:48.244+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:10:48.240+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:10:48.247+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:10:48.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.419 seconds
+[2024-05-27T21:11:18.390+0000] {processor.py:161} INFO - Started process (PID=680) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:11:18.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:11:18.394+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:11:18.393+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:11:18.795+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:11:18.789+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:11:18.797+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:11:18.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.457 seconds
+[2024-05-27T21:11:48.938+0000] {processor.py:161} INFO - Started process (PID=756) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:11:48.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:11:48.942+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:11:48.942+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:11:49.361+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:11:49.355+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:11:49.363+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:11:49.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.461 seconds
+[2024-05-27T21:12:19.486+0000] {processor.py:161} INFO - Started process (PID=826) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:12:19.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:12:19.489+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:12:19.489+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:12:19.805+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:12:19.802+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:12:19.806+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:12:19.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.348 seconds
+[2024-05-27T21:12:50.236+0000] {processor.py:161} INFO - Started process (PID=896) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:12:50.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:12:50.240+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:12:50.239+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:12:50.543+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:12:50.537+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:12:50.545+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:12:50.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.335 seconds
+[2024-05-27T21:13:21.064+0000] {processor.py:161} INFO - Started process (PID=966) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:13:21.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:13:21.067+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:13:21.067+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:13:21.384+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:13:21.378+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:13:21.385+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:13:21.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.350 seconds
+[2024-05-27T21:13:51.539+0000] {processor.py:161} INFO - Started process (PID=1043) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:13:51.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:13:51.544+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:13:51.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:13:52.038+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:13:52.033+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:13:52.039+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:13:52.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.528 seconds
+[2024-05-27T21:14:22.323+0000] {processor.py:161} INFO - Started process (PID=1116) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:14:22.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:14:22.326+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:14:22.326+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:14:22.731+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:14:22.722+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:14:22.734+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:14:22.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.437 seconds
+[2024-05-27T21:14:52.947+0000] {processor.py:161} INFO - Started process (PID=1196) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:14:52.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:14:52.951+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:14:52.950+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:14:53.400+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:14:53.396+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:14:53.402+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:14:53.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.484 seconds
+[2024-05-27T21:15:24.201+0000] {processor.py:161} INFO - Started process (PID=1267) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:15:24.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:15:24.204+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:15:24.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:15:24.612+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:15:24.606+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:15:24.614+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:15:24.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.440 seconds
+[2024-05-27T21:15:54.799+0000] {processor.py:161} INFO - Started process (PID=1340) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:15:54.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:15:54.803+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:15:54.803+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:15:55.248+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:15:55.245+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:15:55.250+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:15:55.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.478 seconds
+[2024-05-27T21:16:26.016+0000] {processor.py:161} INFO - Started process (PID=1418) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:16:26.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:16:26.020+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:16:26.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:16:26.421+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:16:26.416+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:16:26.422+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:16:26.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.431 seconds
+[2024-05-27T21:16:31.792+0000] {processor.py:161} INFO - Started process (PID=1441) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:16:31.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:16:31.795+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:16:31.795+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:16:32.199+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:16:32.193+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 7, in <module>
+    import openmeteo_requests # type: ignore
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-27T21:16:32.201+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:16:32.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.443 seconds
+[2024-05-27T21:16:58.791+0000] {processor.py:161} INFO - Started process (PID=1495) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:16:58.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:16:58.794+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:16:58.794+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:16:59.313+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:16:59.309+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 8, in <module>
+    import requests_cache # type: ignore
+ModuleNotFoundError: No module named 'requests_cache'
+[2024-05-27T21:16:59.315+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:16:59.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.553 seconds
+[2024-05-27T21:17:21.160+0000] {processor.py:161} INFO - Started process (PID=1549) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:17:21.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:17:21.164+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:17:21.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:17:21.667+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:17:21.660+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags_python_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 9, in <module>
+    from retry_requests import retry
+ModuleNotFoundError: No module named 'retry_requests'
+[2024-05-27T21:17:21.668+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:17:21.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.535 seconds
+[2024-05-27T21:17:45.663+0000] {processor.py:161} INFO - Started process (PID=1614) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:17:45.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:17:45.666+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:17:45.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:17:46.156+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:17:46.252+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:17:46.252+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:17:46.277+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:17:46.277+0000] {dag.py:3954} INFO - Setting next_dagrun for Preentrega3-fedebar to 2024-05-21 01:00:00+00:00, run_after=2024-05-21 02:00:00+00:00
+[2024-05-27T21:17:46.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.656 seconds
+[2024-05-27T21:18:16.429+0000] {processor.py:161} INFO - Started process (PID=1684) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:18:16.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:18:16.434+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:18:16.434+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:18:18.140+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:18:18.167+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:18:18.166+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:18:18.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 1.798 seconds
+[2024-05-27T21:18:48.581+0000] {processor.py:161} INFO - Started process (PID=1755) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:18:48.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:18:48.585+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:18:48.585+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:18:49.077+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:18:49.095+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:18:49.095+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:18:49.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.566 seconds
+[2024-05-27T21:19:19.317+0000] {processor.py:161} INFO - Started process (PID=1825) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:19:19.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:19:19.322+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:19:19.321+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:19:19.777+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:19:19.795+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:19:19.795+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:19:19.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.527 seconds
+[2024-05-27T21:19:50.129+0000] {processor.py:161} INFO - Started process (PID=1903) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:19:50.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:19:50.133+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:19:50.132+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:19:50.581+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:19:50.599+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:19:50.598+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:19:50.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.521 seconds
+[2024-05-27T21:20:21.065+0000] {processor.py:161} INFO - Started process (PID=1973) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:20:21.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:20:21.072+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:20:21.071+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:20:21.487+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:20:21.504+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:20:21.503+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:20:21.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.487 seconds
+[2024-05-27T21:20:52.233+0000] {processor.py:161} INFO - Started process (PID=2054) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:20:52.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:20:52.238+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:20:52.237+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:20:52.728+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:20:52.751+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:20:52.750+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:20:52.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.592 seconds
+[2024-05-27T21:21:23.451+0000] {processor.py:161} INFO - Started process (PID=2148) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:21:23.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:21:23.455+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:21:23.454+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:21:24.223+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:21:24.257+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:21:24.256+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:21:24.319+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:21:24.319+0000] {dag.py:3954} INFO - Setting next_dagrun for Preentrega3-fedebar to 2024-05-21 17:00:00+00:00, run_after=2024-05-21 18:00:00+00:00
+[2024-05-27T21:21:24.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.917 seconds
+[2024-05-27T21:21:54.665+0000] {processor.py:161} INFO - Started process (PID=2220) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:21:54.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:21:54.669+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:21:54.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:21:55.378+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:21:55.398+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:21:55.398+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:21:55.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.787 seconds
+[2024-05-27T21:22:25.628+0000] {processor.py:161} INFO - Started process (PID=2287) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:22:25.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:22:25.633+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:22:25.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:22:26.041+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:22:26.059+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:22:26.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:22:26.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.475 seconds
+[2024-05-27T21:22:56.353+0000] {processor.py:161} INFO - Started process (PID=2365) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:22:56.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:22:56.356+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:22:56.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:22:56.864+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:22:56.888+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:22:56.888+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:22:56.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.602 seconds
+[2024-05-27T21:23:27.147+0000] {processor.py:161} INFO - Started process (PID=2435) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:23:27.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:23:27.151+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:23:27.151+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:23:27.563+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:23:27.581+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:23:27.581+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:23:27.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.480 seconds
+[2024-05-27T21:23:58.523+0000] {processor.py:161} INFO - Started process (PID=2505) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:23:58.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:23:58.527+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:23:58.527+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:23:59.238+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:23:59.261+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:23:59.261+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:23:59.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.797 seconds
+[2024-05-27T21:24:29.465+0000] {processor.py:161} INFO - Started process (PID=2584) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:24:29.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:24:29.469+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:24:29.469+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:24:29.864+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:24:29.882+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:24:29.881+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:24:29.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.458 seconds
+[2024-05-27T21:24:59.967+0000] {processor.py:161} INFO - Started process (PID=2655) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:24:59.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:24:59.970+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:24:59.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:25:00.357+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:25:00.375+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:25:00.375+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:25:00.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 0.450 seconds
+[2024-05-27T21:25:30.714+0000] {processor.py:161} INFO - Started process (PID=2732) to work on /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:25:30.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_fedebar.py for tasks to queue
+[2024-05-27T21:25:30.719+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:25:30.718+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:25:31.706+0000] {processor.py:840} INFO - DAG(s) 'Preentrega3-fedebar' retrieved from /opt/airflow/dags/dags_python_fedebar.py
+[2024-05-27T21:25:31.741+0000] {logging_mixin.py:188} INFO - [2024-05-27T21:25:31.741+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T21:25:31.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_fedebar.py took 1.088 seconds

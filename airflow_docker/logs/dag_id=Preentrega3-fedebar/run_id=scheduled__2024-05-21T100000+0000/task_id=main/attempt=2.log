@@ -1,0 +1,35 @@
+[2024-05-27T21:21:18.054+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-27T21:21:18.188+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Preentrega3-fedebar.main scheduled__2024-05-21T10:00:00+00:00 [queued]>
+[2024-05-27T21:21:18.249+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Preentrega3-fedebar.main scheduled__2024-05-21T10:00:00+00:00 [queued]>
+[2024-05-27T21:21:18.252+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-05-27T21:21:18.343+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): main> on 2024-05-21 10:00:00+00:00
+[2024-05-27T21:21:18.391+0000] {standard_task_runner.py:63} INFO - Started process 676 to run task
+[2024-05-27T21:21:18.427+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'Preentrega3-fedebar', 'main', 'scheduled__2024-05-21T10:00:00+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/dags_python_fedebar.py', '--cfg-path', '/tmp/tmpdpstixws']
+[2024-05-27T21:21:18.451+0000] {standard_task_runner.py:91} INFO - Job 66: Subtask main
+[2024-05-27T21:21:19.048+0000] {task_command.py:426} INFO - Running <TaskInstance: Preentrega3-fedebar.main scheduled__2024-05-21T10:00:00+00:00 [running]> on host ab7b4a79fe7d
+[2024-05-27T21:21:20.122+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='FedeBar' AIRFLOW_CTX_DAG_ID='Preentrega3-fedebar' AIRFLOW_CTX_TASK_ID='main' AIRFLOW_CTX_EXECUTION_DATE='2024-05-21T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-21T10:00:00+00:00'
+[2024-05-27T21:21:20.140+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-27T21:21:20.145+0000] {logging_mixin.py:188} INFO - Inicio: 2024-05-27 21:21:20.145200
+[2024-05-27T21:21:20.235+0000] {base.py:84} INFO - Using connection ID 'coder-redshift-fede' for task execution.
+[2024-05-27T21:21:21.449+0000] {logging_mixin.py:188} INFO - Conectado a Redshift con éxito!
+[2024-05-27T21:21:22.032+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-27T21:21:22.033+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dags_python_fedebar.py", line 68, in main
+    cache_session = requests_cache.CachedSession('.cache', expire_after = 3600)
+NameError: name 'requests_cache' is not defined
+[2024-05-27T21:21:22.047+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=Preentrega3-fedebar, task_id=main, run_id=scheduled__2024-05-21T10:00:00+00:00, execution_date=20240521T100000, start_date=20240527T212118, end_date=20240527T212122
+[2024-05-27T21:21:22.078+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 66 for task main (name 'requests_cache' is not defined; 676)
+[2024-05-27T21:21:22.142+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-27T21:21:22.168+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-27T21:21:22.171+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

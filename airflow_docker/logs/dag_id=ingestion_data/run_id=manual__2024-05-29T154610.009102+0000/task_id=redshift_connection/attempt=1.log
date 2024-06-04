@@ -1,0 +1,34 @@
+[2024-05-29T15:46:13.846+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-29T15:46:13.866+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ingestion_data.redshift_connection manual__2024-05-29T15:46:10.009102+00:00 [queued]>
+[2024-05-29T15:46:13.874+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ingestion_data.redshift_connection manual__2024-05-29T15:46:10.009102+00:00 [queued]>
+[2024-05-29T15:46:13.876+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-05-29T15:46:13.889+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): redshift_connection> on 2024-05-29 15:46:10.009102+00:00
+[2024-05-29T15:46:13.897+0000] {standard_task_runner.py:63} INFO - Started process 1566 to run task
+[2024-05-29T15:46:13.900+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ingestion_data', 'redshift_connection', 'manual__2024-05-29T15:46:10.009102+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/dag_entregable_fedebar.py', '--cfg-path', '/tmp/tmpsfkdw82s']
+[2024-05-29T15:46:13.901+0000] {standard_task_runner.py:91} INFO - Job 16: Subtask redshift_connection
+[2024-05-29T15:46:13.952+0000] {task_command.py:426} INFO - Running <TaskInstance: ingestion_data.redshift_connection manual__2024-05-29T15:46:10.009102+00:00 [running]> on host 35bb4d49d405
+[2024-05-29T15:46:14.030+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='FedeBar' AIRFLOW_CTX_DAG_ID='ingestion_data' AIRFLOW_CTX_TASK_ID='redshift_connection' AIRFLOW_CTX_EXECUTION_DATE='2024-05-29T15:46:10.009102+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-29T15:46:10.009102+00:00'
+[2024-05-29T15:46:14.031+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-29T15:46:14.040+0000] {base.py:84} INFO - Using connection ID 'coder-redshift-fede' for task execution.
+[2024-05-29T15:46:14.042+0000] {logging_mixin.py:188} INFO - No es posible conectar a Redshift
+[2024-05-29T15:46:14.043+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-29T15:46:14.044+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/weather_info_ETL.py", line 28, in conectar_redshift
+    with conn.cursor() as cur:
+UnboundLocalError: local variable 'conn' referenced before assignment
+[2024-05-29T15:46:14.059+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=ingestion_data, task_id=redshift_connection, run_id=manual__2024-05-29T15:46:10.009102+00:00, execution_date=20240529T154610, start_date=20240529T154613, end_date=20240529T154614
+[2024-05-29T15:46:14.070+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 16 for task redshift_connection (local variable 'conn' referenced before assignment; 1566)
+[2024-05-29T15:46:14.114+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-29T15:46:14.136+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-29T15:46:14.139+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

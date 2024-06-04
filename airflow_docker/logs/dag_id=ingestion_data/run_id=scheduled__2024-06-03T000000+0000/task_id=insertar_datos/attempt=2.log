@@ -1,0 +1,27 @@
+[2024-06-04T00:03:14.788+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-04T00:03:14.814+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ingestion_data.insertar_datos scheduled__2024-06-03T00:00:00+00:00 [queued]>
+[2024-06-04T00:03:14.822+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ingestion_data.insertar_datos scheduled__2024-06-03T00:00:00+00:00 [queued]>
+[2024-06-04T00:03:14.824+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-06-04T00:03:14.841+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): insertar_datos> on 2024-06-03 00:00:00+00:00
+[2024-06-04T00:03:14.849+0000] {standard_task_runner.py:63} INFO - Started process 2332 to run task
+[2024-06-04T00:03:14.852+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ingestion_data', 'insertar_datos', 'scheduled__2024-06-03T00:00:00+00:00', '--job-id', '73', '--raw', '--subdir', 'DAGS_FOLDER/dag_entregable_fedebar.py', '--cfg-path', '/tmp/tmp589qm1i1']
+[2024-06-04T00:03:14.853+0000] {standard_task_runner.py:91} INFO - Job 73: Subtask insertar_datos
+[2024-06-04T00:03:14.906+0000] {task_command.py:426} INFO - Running <TaskInstance: ingestion_data.insertar_datos scheduled__2024-06-03T00:00:00+00:00 [running]> on host 167cb9f6b96a
+[2024-06-04T00:03:14.997+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='FedeBar' AIRFLOW_CTX_DAG_ID='ingestion_data' AIRFLOW_CTX_TASK_ID='insertar_datos' AIRFLOW_CTX_EXECUTION_DATE='2024-06-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-03T00:00:00+00:00'
+[2024-06-04T00:03:14.999+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-04T00:03:15.008+0000] {base.py:84} INFO - Using connection ID 'coder-redshift-fede' for task execution.
+[2024-06-04T00:03:15.009+0000] {weather_info_ETL.py:16} INFO - Conectando a Redshift en data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439/data-engineer-database
+[2024-06-04T00:03:16.521+0000] {warnings.py:109} WARNING - /opt/***/dags/weather_info_ETL.py:150: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  existing_data = pd.read_sql(existing_data_query, conn)
+
+[2024-06-04T00:03:17.239+0000] {warnings.py:109} WARNING - /opt/***/dags/weather_info_ETL.py:153: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  max_existing_load_date = pd.read_sql(max_existing_load_date_query, conn).iloc[0, 0]
+
+[2024-06-04T00:03:17.432+0000] {weather_info_ETL.py:178} ERROR - Error al insertar datos en Redshift: 'dict' object has no attribute 'Daily'
+[2024-06-04T00:03:17.434+0000] {weather_info_ETL.py:181} INFO - Conexión a Redshift cerrada.
+[2024-06-04T00:03:17.435+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-04T00:03:17.436+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-04T00:03:17.445+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=ingestion_data, task_id=insertar_datos, run_id=scheduled__2024-06-03T00:00:00+00:00, execution_date=20240603T000000, start_date=20240604T000314, end_date=20240604T000317
+[2024-06-04T00:03:17.485+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-04T00:03:17.501+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-04T00:03:17.504+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

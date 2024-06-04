@@ -1,0 +1,704 @@
+[2024-05-28T18:29:08.890+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:29:08.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:29:08.935+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:29:08.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:29:09.030+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:29:09.021+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:29:09.034+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:29:09.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.431 seconds
+[2024-05-28T18:29:39.485+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:29:39.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:29:39.495+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:29:39.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:29:39.525+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:29:39.518+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:29:39.527+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:29:39.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.097 seconds
+[2024-05-28T18:30:09.991+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:30:09.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:30:09.995+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:30:09.994+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:30:10.017+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:30:10.012+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:30:10.019+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:30:10.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.060 seconds
+[2024-05-28T18:30:40.402+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:30:40.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:30:40.406+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:30:40.406+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:30:40.426+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:30:40.422+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:30:40.428+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:30:40.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.062 seconds
+[2024-05-28T18:31:10.981+0000] {processor.py:161} INFO - Started process (PID=329) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:31:10.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:31:10.984+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:31:10.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:31:11.002+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:31:10.998+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:31:11.004+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:31:11.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.046 seconds
+[2024-05-28T18:31:41.291+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:31:41.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:31:41.294+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:31:41.294+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:31:41.317+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:31:41.312+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:31:41.319+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:31:41.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.057 seconds
+[2024-05-28T18:32:11.776+0000] {processor.py:161} INFO - Started process (PID=468) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:32:11.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:32:11.781+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:32:11.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:32:11.809+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:32:11.805+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:32:11.813+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:32:11.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.117 seconds
+[2024-05-28T18:32:42.160+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:32:42.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:32:42.163+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:32:42.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:32:42.182+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:32:42.177+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:32:42.183+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:32:42.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.048 seconds
+[2024-05-28T18:33:12.483+0000] {processor.py:161} INFO - Started process (PID=615) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:33:12.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:33:12.486+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:33:12.485+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:33:12.504+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:33:12.500+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:33:12.506+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:33:12.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.048 seconds
+[2024-05-28T18:33:42.954+0000] {processor.py:161} INFO - Started process (PID=685) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:33:42.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:33:42.965+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:33:42.964+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:33:42.992+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:33:42.985+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:33:42.994+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:33:43.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.085 seconds
+[2024-05-28T18:34:13.126+0000] {processor.py:161} INFO - Started process (PID=763) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:34:13.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:34:13.131+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:34:13.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:34:13.160+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:34:13.153+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:34:13.163+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:34:13.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.067 seconds
+[2024-05-28T18:34:43.522+0000] {processor.py:161} INFO - Started process (PID=833) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:34:43.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:34:43.526+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:34:43.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:34:43.542+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:34:43.537+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:34:43.543+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:34:43.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.044 seconds
+[2024-05-28T18:35:14.254+0000] {processor.py:161} INFO - Started process (PID=903) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:35:14.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:35:14.257+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:35:14.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:35:14.272+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:35:14.269+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:35:14.273+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:35:14.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.043 seconds
+[2024-05-28T18:35:44.662+0000] {processor.py:161} INFO - Started process (PID=981) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:35:44.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:35:44.666+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:35:44.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:35:44.682+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:35:44.678+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:35:44.683+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:35:44.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.051 seconds
+[2024-05-28T18:36:14.938+0000] {processor.py:161} INFO - Started process (PID=1051) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:36:14.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:36:14.941+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:36:14.940+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:36:14.956+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:36:14.953+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:36:14.957+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:36:14.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.044 seconds
+[2024-05-28T18:36:45.192+0000] {processor.py:161} INFO - Started process (PID=1121) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:36:45.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:36:45.196+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:36:45.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:36:45.210+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:36:45.207+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:36:45.211+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:36:45.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.044 seconds
+[2024-05-28T18:37:15.444+0000] {processor.py:161} INFO - Started process (PID=1199) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:37:15.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:37:15.447+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:37:15.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:37:15.466+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:37:15.462+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:37:15.467+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:37:15.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.050 seconds
+[2024-05-28T18:37:45.795+0000] {processor.py:161} INFO - Started process (PID=1270) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:37:45.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:37:45.800+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:37:45.798+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:37:45.817+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:37:45.813+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:37:45.820+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:37:45.842+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.054 seconds
+[2024-05-28T18:38:16.084+0000] {processor.py:161} INFO - Started process (PID=1340) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:38:16.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:38:16.088+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:38:16.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:38:16.106+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:38:16.100+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:38:16.109+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:38:16.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.054 seconds
+[2024-05-28T18:38:46.815+0000] {processor.py:161} INFO - Started process (PID=1418) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:38:46.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:38:46.818+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:38:46.818+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:38:46.837+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:38:46.833+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:38:46.839+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:38:46.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.053 seconds
+[2024-05-28T18:39:17.328+0000] {processor.py:161} INFO - Started process (PID=1488) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:39:17.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:39:17.332+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:39:17.332+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:39:17.351+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:39:17.347+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:39:17.353+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:39:17.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.052 seconds
+[2024-05-28T18:39:47.594+0000] {processor.py:161} INFO - Started process (PID=1558) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:39:47.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:39:47.598+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:39:47.598+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:39:47.625+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:39:47.620+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:39:47.627+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:39:47.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.065 seconds
+[2024-05-28T18:40:18.212+0000] {processor.py:161} INFO - Started process (PID=1637) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:40:18.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:40:18.216+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:40:18.216+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:40:18.241+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:40:18.235+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:40:18.243+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:40:18.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.065 seconds
+[2024-05-28T18:40:48.703+0000] {processor.py:161} INFO - Started process (PID=1707) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:40:48.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:40:48.706+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:40:48.706+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:40:48.721+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:40:48.717+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:40:48.722+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:40:48.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.042 seconds
+[2024-05-28T18:41:19.079+0000] {processor.py:161} INFO - Started process (PID=1785) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:41:19.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:41:19.082+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:41:19.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:41:19.104+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:41:19.100+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:41:19.106+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:41:19.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.069 seconds
+[2024-05-28T18:41:49.393+0000] {processor.py:161} INFO - Started process (PID=1854) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:41:49.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:41:49.395+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:41:49.395+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:41:49.411+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:41:49.407+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:41:49.413+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:41:49.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.050 seconds
+[2024-05-28T18:42:19.730+0000] {processor.py:161} INFO - Started process (PID=1924) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:42:19.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:42:19.733+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:42:19.733+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:42:19.748+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:42:19.744+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:42:19.749+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:42:19.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.044 seconds
+[2024-05-28T18:42:50.059+0000] {processor.py:161} INFO - Started process (PID=2002) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:42:50.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:42:50.062+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:42:50.061+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:42:50.077+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:42:50.074+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:42:50.079+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:42:50.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.044 seconds
+[2024-05-28T18:43:20.454+0000] {processor.py:161} INFO - Started process (PID=2073) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:43:20.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:43:20.457+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:43:20.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:43:20.473+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:43:20.469+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:43:20.474+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:43:20.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.055 seconds
+[2024-05-28T18:43:50.638+0000] {processor.py:161} INFO - Started process (PID=2151) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:43:50.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:43:50.641+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:43:50.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:43:50.665+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:43:50.659+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:43:50.667+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:43:50.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.058 seconds
+[2024-05-28T18:44:21.080+0000] {processor.py:161} INFO - Started process (PID=2222) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:44:21.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:44:21.082+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:44:21.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:44:21.098+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:44:21.095+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:44:21.100+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:44:21.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.046 seconds
+[2024-05-28T18:44:51.261+0000] {processor.py:161} INFO - Started process (PID=2297) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:44:51.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:44:51.265+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:44:51.265+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:44:51.285+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:44:51.281+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:44:51.287+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:44:51.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.055 seconds
+[2024-05-28T18:45:21.500+0000] {processor.py:161} INFO - Started process (PID=2368) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:45:21.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:45:21.503+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:45:21.502+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:45:21.521+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:45:21.517+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:45:21.522+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:45:21.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.046 seconds
+[2024-05-28T18:45:51.960+0000] {processor.py:161} INFO - Started process (PID=2438) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:45:51.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:45:51.963+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:45:51.962+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:45:51.978+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:45:51.974+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:45:51.980+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:45:52.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.048 seconds
+[2024-05-28T18:46:22.386+0000] {processor.py:161} INFO - Started process (PID=2516) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:46:22.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:46:22.389+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:46:22.389+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:46:22.408+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:46:22.404+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:46:22.409+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:46:22.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.048 seconds
+[2024-05-28T18:46:52.870+0000] {processor.py:161} INFO - Started process (PID=2586) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:46:52.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:46:52.873+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:46:52.873+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:46:52.887+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:46:52.884+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:46:52.888+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:46:52.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.042 seconds
+[2024-05-28T18:47:23.252+0000] {processor.py:161} INFO - Started process (PID=2663) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:47:23.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:47:23.256+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:47:23.255+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:47:23.276+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:47:23.270+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:47:23.278+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:47:23.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.061 seconds
+[2024-05-28T18:47:53.522+0000] {processor.py:161} INFO - Started process (PID=2734) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:47:53.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:47:53.525+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:47:53.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:47:53.540+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:47:53.537+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:47:53.541+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:47:53.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.042 seconds
+[2024-05-28T18:48:23.833+0000] {processor.py:161} INFO - Started process (PID=2804) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:48:23.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:48:23.837+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:48:23.836+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:48:23.853+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:48:23.849+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:48:23.854+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:48:23.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.045 seconds
+[2024-05-28T18:48:54.154+0000] {processor.py:161} INFO - Started process (PID=2882) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:48:54.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:48:54.157+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:48:54.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:48:54.172+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:48:54.168+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:48:54.173+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:48:54.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.043 seconds
+[2024-05-28T18:49:24.833+0000] {processor.py:161} INFO - Started process (PID=2952) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:49:24.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:49:24.836+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:49:24.836+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:49:24.853+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:49:24.849+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:49:24.855+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:49:24.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.047 seconds
+[2024-05-28T18:49:55.220+0000] {processor.py:161} INFO - Started process (PID=3030) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:49:55.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:49:55.223+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:49:55.223+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:49:55.238+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:49:55.234+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:49:55.239+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:49:55.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.043 seconds
+[2024-05-28T18:50:25.639+0000] {processor.py:161} INFO - Started process (PID=3100) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:50:25.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:50:25.642+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:50:25.642+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:50:25.657+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:50:25.654+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:50:25.658+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:50:25.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.043 seconds
+[2024-05-28T18:50:55.892+0000] {processor.py:161} INFO - Started process (PID=3179) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:50:55.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-05-28T18:50:55.897+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:50:55.896+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:50:55.918+0000] {logging_mixin.py:188} INFO - [2024-05-28T18:50:55.913+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 5, in <module>
+    from weather_info_ETL import conectar_redshift, insertar_data, traer_datos_clima, enviar_email
+  File "/opt/airflow/dags/weather_info_ETL.py", line 1, in <module>
+    import openmeteo_requests
+ModuleNotFoundError: No module named 'openmeteo_requests'
+[2024-05-28T18:50:55.919+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-05-28T18:50:55.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.053 seconds

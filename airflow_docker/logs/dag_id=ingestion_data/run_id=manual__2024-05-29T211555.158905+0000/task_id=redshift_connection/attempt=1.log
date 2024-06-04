@@ -1,0 +1,36 @@
+[2024-05-29T21:15:59.775+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-29T21:15:59.796+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ingestion_data.redshift_connection manual__2024-05-29T21:15:55.158905+00:00 [queued]>
+[2024-05-29T21:15:59.809+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ingestion_data.redshift_connection manual__2024-05-29T21:15:55.158905+00:00 [queued]>
+[2024-05-29T21:15:59.810+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-05-29T21:15:59.824+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): redshift_connection> on 2024-05-29 21:15:55.158905+00:00
+[2024-05-29T21:15:59.830+0000] {standard_task_runner.py:63} INFO - Started process 507 to run task
+[2024-05-29T21:15:59.835+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ingestion_data', 'redshift_connection', 'manual__2024-05-29T21:15:55.158905+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/dag_entregable_fedebar.py', '--cfg-path', '/tmp/tmpd4flcq50']
+[2024-05-29T21:15:59.837+0000] {standard_task_runner.py:91} INFO - Job 24: Subtask redshift_connection
+[2024-05-29T21:15:59.891+0000] {task_command.py:426} INFO - Running <TaskInstance: ingestion_data.redshift_connection manual__2024-05-29T21:15:55.158905+00:00 [running]> on host 167cb9f6b96a
+[2024-05-29T21:15:59.976+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='FedeBar' AIRFLOW_CTX_DAG_ID='ingestion_data' AIRFLOW_CTX_TASK_ID='redshift_connection' AIRFLOW_CTX_EXECUTION_DATE='2024-05-29T21:15:55.158905+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-29T21:15:55.158905+00:00'
+[2024-05-29T21:15:59.977+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-29T21:15:59.988+0000] {base.py:84} INFO - Using connection ID 'coder-redshift-fede' for task execution.
+[2024-05-29T21:15:59.989+0000] {weather_info_ETL.py:15} INFO - Conectando a Redshift en http://data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com/:5439/data-engineer-database
+[2024-05-29T21:15:59.989+0000] {weather_info_ETL.py:31} ERROR - No es posible conectar a Redshift: could not translate host name "http://data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com/" to address: Name or service not known
+
+[2024-05-29T21:15:59.990+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-29T21:15:59.991+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/weather_info_ETL.py", line 35, in conectar_redshift
+    with conn.cursor() as cur:
+UnboundLocalError: local variable 'conn' referenced before assignment
+[2024-05-29T21:16:00.006+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=ingestion_data, task_id=redshift_connection, run_id=manual__2024-05-29T21:15:55.158905+00:00, execution_date=20240529T211555, start_date=20240529T211559, end_date=20240529T211600
+[2024-05-29T21:16:00.020+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 24 for task redshift_connection (local variable 'conn' referenced before assignment; 507)
+[2024-05-29T21:16:00.047+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-29T21:16:00.072+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-29T21:16:00.074+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
