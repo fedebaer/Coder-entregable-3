@@ -1,0 +1,75 @@
+[2024-06-06T00:35:58.478+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-06T00:35:58.496+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ingestion_data.enviar_notificacion manual__2024-06-06T00:32:43.284475+00:00 [queued]>
+[2024-06-06T00:35:58.504+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ingestion_data.enviar_notificacion manual__2024-06-06T00:32:43.284475+00:00 [queued]>
+[2024-06-06T00:35:58.505+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-06-06T00:35:58.517+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): enviar_notificacion> on 2024-06-06 00:32:43.284475+00:00
+[2024-06-06T00:35:58.522+0000] {standard_task_runner.py:63} INFO - Started process 3537 to run task
+[2024-06-06T00:35:58.525+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ingestion_data', 'enviar_notificacion', 'manual__2024-06-06T00:32:43.284475+00:00', '--job-id', '164', '--raw', '--subdir', 'DAGS_FOLDER/dag_entregable_fedebar.py', '--cfg-path', '/tmp/tmp7fdvms2z']
+[2024-06-06T00:35:58.526+0000] {standard_task_runner.py:91} INFO - Job 164: Subtask enviar_notificacion
+[2024-06-06T00:35:58.569+0000] {task_command.py:426} INFO - Running <TaskInstance: ingestion_data.enviar_notificacion manual__2024-06-06T00:32:43.284475+00:00 [running]> on host 167cb9f6b96a
+[2024-06-06T00:35:58.646+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='FedeBar' AIRFLOW_CTX_DAG_ID='ingestion_data' AIRFLOW_CTX_TASK_ID='enviar_notificacion' AIRFLOW_CTX_EXECUTION_DATE='2024-06-06T00:32:43.284475+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-06T00:32:43.284475+00:00'
+[2024-06-06T00:35:58.648+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-06T00:35:58.659+0000] {base.py:84} INFO - Using connection ID 'mail_fede' for task execution.
+[2024-06-06T00:35:58.659+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-06T00:35:58.660+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/dags/weather_info_ETL.py", line 215, in enviar_email
+    msg = MIMEMultipart()
+NameError: name 'MIMEMultipart' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/weather_info_ETL.py", line 227, in enviar_email
+    except smtplib.SMTPAuthenticationError as auth_error:
+NameError: name 'smtplib' is not defined
+[2024-06-06T00:35:58.674+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=ingestion_data, task_id=enviar_notificacion, run_id=manual__2024-06-06T00:32:43.284475+00:00, execution_date=20240606T003243, start_date=20240606T003558, end_date=20240606T003558
+[2024-06-06T00:35:58.675+0000] {taskinstance.py:1182} ERROR - Error when executing enviar_email callback
+Traceback (most recent call last):
+  File "/opt/airflow/dags/weather_info_ETL.py", line 215, in enviar_email
+    msg = MIMEMultipart()
+NameError: name 'MIMEMultipart' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2479, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2676, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2701, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/weather_info_ETL.py", line 227, in enviar_email
+    except smtplib.SMTPAuthenticationError as auth_error:
+NameError: name 'smtplib' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1179, in _run_finished_callback
+    callback(context)
+TypeError: enviar_email() takes 0 positional arguments but 1 was given
+[2024-06-06T00:35:58.689+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 164 for task enviar_notificacion (name 'smtplib' is not defined; 3537)
+[2024-06-06T00:35:58.699+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-06T00:35:58.713+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-06T00:35:58.716+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

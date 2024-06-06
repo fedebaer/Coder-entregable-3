@@ -1,0 +1,1 @@
+[2024-06-05T21:49:49.598+0000] {scheduler_job_runner.py:769} ERROR - Executor reports task instance <TaskInstance: ingestion_data.levantar_datos_API manual__2024-06-05T21:49:46.721221+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

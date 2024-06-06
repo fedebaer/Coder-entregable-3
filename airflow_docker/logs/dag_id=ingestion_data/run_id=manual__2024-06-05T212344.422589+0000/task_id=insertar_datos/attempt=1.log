@@ -1,0 +1,29 @@
+[2024-06-05T21:23:54.026+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-05T21:23:54.054+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ingestion_data.insertar_datos manual__2024-06-05T21:23:44.422589+00:00 [queued]>
+[2024-06-05T21:23:54.069+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ingestion_data.insertar_datos manual__2024-06-05T21:23:44.422589+00:00 [queued]>
+[2024-06-05T21:23:54.071+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-06-05T21:23:54.092+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): insertar_datos> on 2024-06-05 21:23:44.422589+00:00
+[2024-06-05T21:23:54.101+0000] {standard_task_runner.py:63} INFO - Started process 135 to run task
+[2024-06-05T21:23:54.106+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ingestion_data', 'insertar_datos', 'manual__2024-06-05T21:23:44.422589+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/dag_entregable_fedebar.py', '--cfg-path', '/tmp/tmpb550ao48']
+[2024-06-05T21:23:54.108+0000] {standard_task_runner.py:91} INFO - Job 116: Subtask insertar_datos
+[2024-06-05T21:23:54.172+0000] {task_command.py:426} INFO - Running <TaskInstance: ingestion_data.insertar_datos manual__2024-06-05T21:23:44.422589+00:00 [running]> on host 167cb9f6b96a
+[2024-06-05T21:23:54.265+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='FedeBar' AIRFLOW_CTX_DAG_ID='ingestion_data' AIRFLOW_CTX_TASK_ID='insertar_datos' AIRFLOW_CTX_EXECUTION_DATE='2024-06-05T21:23:44.422589+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-05T21:23:44.422589+00:00'
+[2024-06-05T21:23:54.268+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-05T21:23:54.280+0000] {base.py:84} INFO - Using connection ID 'coder-redshift-fede' for task execution.
+[2024-06-05T21:23:54.281+0000] {weather_info_ETL.py:19} INFO - Conectando a Redshift en data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439/data-engineer-database
+[2024-06-05T21:23:55.639+0000] {warnings.py:109} WARNING - /opt/***/dags/weather_info_ETL.py:168: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  existing_data = pd.read_sql(existing_data_query, conn)
+
+[2024-06-05T21:23:56.278+0000] {warnings.py:109} WARNING - /opt/***/dags/weather_info_ETL.py:171: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  max_existing_load_date = pd.read_sql(max_existing_load_date_query, conn).iloc[0, 0]
+
+[2024-06-05T21:23:56.466+0000] {weather_info_ETL.py:157} ERROR - Archivo no encontrado: [Errno 2] No such file or directory: 'C:\\Fede\\Data Engineer Coderhouse\\Coder-entregable-3\\***_docker\\poblacion.csv'
+[2024-06-05T21:23:56.792+0000] {weather_info_ETL.py:197} ERROR - Error al insertar datos en Redshift: INSERT has more target columns than expressions
+
+[2024-06-05T21:23:56.794+0000] {weather_info_ETL.py:200} INFO - Conexión a Redshift cerrada.
+[2024-06-05T21:23:56.796+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-05T21:23:56.797+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-05T21:23:56.808+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=ingestion_data, task_id=insertar_datos, run_id=manual__2024-06-05T21:23:44.422589+00:00, execution_date=20240605T212344, start_date=20240605T212354, end_date=20240605T212356
+[2024-06-05T21:23:56.858+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-05T21:23:56.879+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-05T21:23:56.882+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

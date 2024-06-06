@@ -1,0 +1,870 @@
+[2024-06-06T00:00:20.902+0000] {processor.py:161} INFO - Started process (PID=7576) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:00:20.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:00:20.905+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:00:20.904+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:00:21.423+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:00:21.439+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:00:21.439+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:00:21.458+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:00:21.458+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:00:21.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.582 seconds
+[2024-06-06T00:00:51.925+0000] {processor.py:161} INFO - Started process (PID=7648) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:00:51.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:00:51.928+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:00:51.928+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:00:52.550+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:00:52.581+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:00:52.581+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:00:52.612+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:00:52.610+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:00:52.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.717 seconds
+[2024-06-06T00:01:23.102+0000] {processor.py:161} INFO - Started process (PID=7728) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:01:23.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:01:23.104+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:01:23.104+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:01:23.648+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:01:23.668+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:01:23.667+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:01:23.690+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:01:23.689+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:01:23.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.628 seconds
+[2024-06-06T00:01:53.803+0000] {processor.py:161} INFO - Started process (PID=7801) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:01:53.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:01:53.805+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:01:53.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:01:54.382+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:01:54.400+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:01:54.400+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:01:54.419+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:01:54.418+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:01:54.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.652 seconds
+[2024-06-06T00:02:24.717+0000] {processor.py:161} INFO - Started process (PID=7873) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:02:24.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:02:24.720+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:02:24.719+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:02:25.258+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:02:25.282+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:02:25.281+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:02:25.303+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:02:25.303+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:02:25.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.616 seconds
+[2024-06-06T00:02:55.480+0000] {processor.py:161} INFO - Started process (PID=7954) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:02:55.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:02:55.482+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:02:55.482+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:02:56.085+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:02:56.103+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:02:56.103+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:02:56.124+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:02:56.124+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:02:56.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.672 seconds
+[2024-06-06T00:03:26.419+0000] {processor.py:161} INFO - Started process (PID=8025) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:03:26.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:03:26.421+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:03:26.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:03:26.981+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:03:27.015+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:03:27.012+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:03:27.047+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:03:27.046+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:03:27.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.658 seconds
+[2024-06-06T00:03:57.380+0000] {processor.py:161} INFO - Started process (PID=8104) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:03:57.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:03:57.382+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:03:57.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:03:57.938+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:03:57.959+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:03:57.958+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:03:57.978+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:03:57.978+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:03:58.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.637 seconds
+[2024-06-06T00:04:28.386+0000] {processor.py:161} INFO - Started process (PID=8177) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:04:28.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:04:28.391+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:04:28.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:04:29.017+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:04:29.035+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:04:29.035+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:04:29.052+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:04:29.051+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:04:29.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.695 seconds
+[2024-06-06T00:04:59.304+0000] {processor.py:161} INFO - Started process (PID=8252) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:04:59.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:04:59.310+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:04:59.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:05:00.059+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:05:00.077+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:05:00.077+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:05:00.103+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:05:00.102+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:05:00.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.843 seconds
+[2024-06-06T00:05:30.306+0000] {processor.py:161} INFO - Started process (PID=8332) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:05:30.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:05:30.308+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:05:30.308+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:05:30.811+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:05:30.830+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:05:30.829+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:05:30.851+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:05:30.851+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:05:30.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.573 seconds
+[2024-06-06T00:06:01.826+0000] {processor.py:161} INFO - Started process (PID=8403) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:06:01.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:06:01.828+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:06:01.827+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:06:02.370+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:06:02.391+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:06:02.390+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:06:02.415+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:06:02.415+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:06:02.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.626 seconds
+[2024-06-06T00:06:32.773+0000] {processor.py:161} INFO - Started process (PID=8483) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:06:32.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:06:32.775+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:06:32.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:06:33.334+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:06:33.354+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:06:33.354+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:06:33.377+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:06:33.377+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:06:33.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.635 seconds
+[2024-06-06T00:07:03.982+0000] {processor.py:161} INFO - Started process (PID=8554) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:07:03.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:07:03.985+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:07:03.985+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:07:04.635+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:07:04.657+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:07:04.656+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:07:04.682+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:07:04.682+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:07:04.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.733 seconds
+[2024-06-06T00:07:34.872+0000] {processor.py:161} INFO - Started process (PID=8634) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:07:34.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:07:34.875+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:07:34.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:07:35.438+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:07:35.454+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:07:35.453+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:07:35.472+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:07:35.471+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:07:35.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.622 seconds
+[2024-06-06T00:08:05.622+0000] {processor.py:161} INFO - Started process (PID=8706) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:08:05.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:08:05.624+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:08:05.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:08:05.995+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:08:06.016+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:08:06.016+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:08:06.034+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:08:06.034+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:08:06.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.438 seconds
+[2024-06-06T00:08:36.711+0000] {processor.py:161} INFO - Started process (PID=8786) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:08:36.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:08:36.713+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:08:36.713+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:08:37.131+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:08:37.156+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:08:37.155+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:08:37.179+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:08:37.179+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:08:37.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.497 seconds
+[2024-06-06T00:09:07.632+0000] {processor.py:161} INFO - Started process (PID=8858) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:09:07.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:09:07.634+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:09:07.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:09:08.049+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:09:08.069+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:09:08.069+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:09:08.089+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:09:08.089+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:09:08.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.485 seconds
+[2024-06-06T00:09:38.501+0000] {processor.py:161} INFO - Started process (PID=8929) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:09:38.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:09:38.504+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:09:38.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:09:38.958+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:09:38.997+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:09:38.996+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:09:39.029+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:09:39.028+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:09:39.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.564 seconds
+[2024-06-06T00:10:09.604+0000] {processor.py:161} INFO - Started process (PID=9009) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:10:09.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:10:09.606+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:10:09.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:10:10.134+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:10:10.165+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:10:10.164+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:10:10.193+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:10:10.193+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:10:10.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.619 seconds
+[2024-06-06T00:10:40.553+0000] {processor.py:161} INFO - Started process (PID=9081) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:10:40.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:10:40.555+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:10:40.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:10:40.945+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:10:40.966+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:10:40.965+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:10:40.985+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:10:40.984+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:10:41.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.458 seconds
+[2024-06-06T00:11:11.201+0000] {processor.py:161} INFO - Started process (PID=9161) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:11:11.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:11:11.205+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:11:11.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:11:11.650+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:11:11.673+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:11:11.673+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:11:11.695+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:11:11.694+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:11:11.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.536 seconds
+[2024-06-06T00:11:42.374+0000] {processor.py:161} INFO - Started process (PID=9233) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:11:42.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:11:42.376+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:11:42.376+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:11:42.759+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:11:42.778+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:11:42.777+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:11:42.796+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:11:42.796+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:11:42.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.451 seconds
+[2024-06-06T00:12:13.036+0000] {processor.py:161} INFO - Started process (PID=9313) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:12:13.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:12:13.038+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:12:13.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:12:13.563+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:12:13.601+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:12:13.601+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:12:13.764+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:12:13.763+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:12:13.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.762 seconds
+[2024-06-06T00:12:44.338+0000] {processor.py:161} INFO - Started process (PID=9385) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:12:44.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:12:44.340+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:12:44.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:12:44.702+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:12:44.723+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:12:44.722+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:12:44.858+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:12:44.857+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:12:44.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.547 seconds
+[2024-06-06T00:13:15.502+0000] {processor.py:161} INFO - Started process (PID=9457) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:13:15.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:13:15.505+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:13:15.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:13:16.080+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:13:16.099+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:13:16.099+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:13:16.122+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:13:16.121+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:13:16.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.648 seconds
+[2024-06-06T00:13:46.432+0000] {processor.py:161} INFO - Started process (PID=9537) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:13:46.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:13:46.434+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:13:46.434+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:13:46.856+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:13:46.878+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:13:46.877+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:13:46.899+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:13:46.898+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:13:46.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.494 seconds
+[2024-06-06T00:14:17.360+0000] {processor.py:161} INFO - Started process (PID=9609) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:14:17.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:14:17.362+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:14:17.362+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:14:17.857+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:14:17.875+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:14:17.875+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:14:17.895+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:14:17.895+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:14:17.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.571 seconds
+[2024-06-06T00:14:48.809+0000] {processor.py:161} INFO - Started process (PID=9689) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:14:48.810+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:14:48.811+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:14:48.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:14:49.311+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:14:49.329+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:14:49.328+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:14:49.348+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:14:49.348+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:14:49.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.566 seconds
+[2024-06-06T00:15:19.467+0000] {processor.py:161} INFO - Started process (PID=9761) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:15:19.468+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:15:19.470+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:15:19.470+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:15:20.021+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:15:20.061+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:15:20.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:15:20.090+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:15:20.089+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:15:20.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.647 seconds
+[2024-06-06T00:15:49.764+0000] {processor.py:161} INFO - Started process (PID=9840) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:15:49.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:15:49.767+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:15:49.767+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:15:49.793+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:15:49.788+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 11, in <module>
+    'on_failure_callback': enviar_email  # Callback para enviar email en caso de fallo
+NameError: name 'enviar_email' is not defined
+[2024-06-06T00:15:49.794+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:15:49.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.062 seconds
+[2024-06-06T00:16:20.141+0000] {processor.py:161} INFO - Started process (PID=9911) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:16:20.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:16:20.143+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:16:20.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:16:20.156+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:16:20.153+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 11, in <module>
+    'on_failure_callback': enviar_email  # Callback para enviar email en caso de fallo
+NameError: name 'enviar_email' is not defined
+[2024-06-06T00:16:20.156+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:16:20.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.040 seconds
+[2024-06-06T00:16:50.301+0000] {processor.py:161} INFO - Started process (PID=9982) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:16:50.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:16:50.303+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:16:50.303+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:16:50.317+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:16:50.313+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 11, in <module>
+    'on_failure_callback': enviar_email  # Callback para enviar email en caso de fallo
+NameError: name 'enviar_email' is not defined
+[2024-06-06T00:16:50.318+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:16:50.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.042 seconds
+[2024-06-06T00:17:20.857+0000] {processor.py:161} INFO - Started process (PID=10060) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:17:20.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:17:20.859+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:17:20.859+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:17:20.870+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:17:20.867+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 11, in <module>
+    'on_failure_callback': enviar_email  # Callback para enviar email en caso de fallo
+NameError: name 'enviar_email' is not defined
+[2024-06-06T00:17:20.871+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:17:20.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.046 seconds
+[2024-06-06T00:17:51.210+0000] {processor.py:161} INFO - Started process (PID=10130) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:17:51.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:17:51.214+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:17:51.214+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:17:51.229+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:17:51.224+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 11, in <module>
+    'on_failure_callback': enviar_email  # Callback para enviar email en caso de fallo
+NameError: name 'enviar_email' is not defined
+[2024-06-06T00:17:51.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:17:51.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.062 seconds
+[2024-06-06T00:18:21.414+0000] {processor.py:161} INFO - Started process (PID=10208) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:18:21.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:18:21.416+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:18:21.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:18:21.431+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:18:21.429+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 11, in <module>
+    'on_failure_callback': enviar_email  # Callback para enviar email en caso de fallo
+NameError: name 'enviar_email' is not defined
+[2024-06-06T00:18:21.432+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:18:21.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.052 seconds
+[2024-06-06T00:18:51.775+0000] {processor.py:161} INFO - Started process (PID=10278) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:18:51.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:18:51.777+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:18:51.776+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:18:51.786+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:18:51.784+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 11, in <module>
+    'on_failure_callback': enviar_email  # Callback para enviar email en caso de fallo
+NameError: name 'enviar_email' is not defined
+[2024-06-06T00:18:51.786+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:18:51.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.035 seconds
+[2024-06-06T00:19:22.166+0000] {processor.py:161} INFO - Started process (PID=10348) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:19:22.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:19:22.169+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:19:22.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:19:22.185+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:19:22.181+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 11, in <module>
+    'on_failure_callback': enviar_email  # Callback para enviar email en caso de fallo
+NameError: name 'enviar_email' is not defined
+[2024-06-06T00:19:22.186+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:19:22.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.056 seconds
+[2024-06-06T00:19:52.553+0000] {processor.py:161} INFO - Started process (PID=10427) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:19:52.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:19:52.555+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:19:52.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:19:52.564+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:19:52.562+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 11, in <module>
+    'on_failure_callback': enviar_email  # Callback para enviar email en caso de fallo
+NameError: name 'enviar_email' is not defined
+[2024-06-06T00:19:52.565+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:19:52.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.044 seconds
+[2024-06-06T00:20:14.820+0000] {processor.py:161} INFO - Started process (PID=10494) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:20:14.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:20:14.823+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:20:14.822+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:20:14.860+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:20:15.016+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:20:15.016+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:20:15.037+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:20:15.037+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:20:15.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.253 seconds
+[2024-06-06T00:20:45.337+0000] {processor.py:161} INFO - Started process (PID=10563) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:20:45.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:20:45.340+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:20:45.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:20:46.002+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:20:46.034+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:20:46.034+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:20:46.052+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:20:46.051+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:20:46.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.754 seconds
+[2024-06-06T00:21:16.544+0000] {processor.py:161} INFO - Started process (PID=10640) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:21:16.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:21:16.547+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:21:16.546+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:21:17.176+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:21:17.214+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:21:17.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:21:17.239+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:21:17.239+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:21:17.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.737 seconds
+[2024-06-06T00:21:47.636+0000] {processor.py:161} INFO - Started process (PID=10711) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:21:47.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:21:47.639+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:21:47.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:21:48.160+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:21:48.201+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:21:48.200+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:21:48.219+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:21:48.218+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:21:48.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.612 seconds
+[2024-06-06T00:22:18.355+0000] {processor.py:161} INFO - Started process (PID=10782) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:22:18.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:22:18.358+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:22:18.357+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:22:18.934+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:22:18.973+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:22:18.972+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:22:18.992+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:22:18.992+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:22:19.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.673 seconds
+[2024-06-06T00:22:49.437+0000] {processor.py:161} INFO - Started process (PID=10860) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:22:49.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:22:49.439+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:22:49.439+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:22:50.079+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:22:50.137+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:22:50.136+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:22:50.163+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:22:50.163+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:22:50.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.752 seconds
+[2024-06-06T00:23:20.606+0000] {processor.py:161} INFO - Started process (PID=10930) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:23:20.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:23:20.608+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:23:20.608+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:23:21.103+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:23:21.145+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:23:21.145+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:23:21.165+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:23:21.165+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:23:21.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.589 seconds
+[2024-06-06T00:23:51.234+0000] {processor.py:161} INFO - Started process (PID=11008) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:23:51.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:23:51.236+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:23:51.236+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:23:51.855+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:23:51.897+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:23:51.896+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:23:51.917+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:23:51.917+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:23:51.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.719 seconds
+[2024-06-06T00:24:22.323+0000] {processor.py:161} INFO - Started process (PID=11078) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:24:22.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:24:22.326+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:24:22.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:24:22.840+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:24:22.874+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:24:22.873+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:24:22.893+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:24:22.893+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:24:22.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.597 seconds
+[2024-06-06T00:24:53.084+0000] {processor.py:161} INFO - Started process (PID=11158) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:24:53.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:24:53.086+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:24:53.086+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:24:53.668+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:24:53.707+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:24:53.706+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:24:53.731+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:24:53.731+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:24:53.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.673 seconds
+[2024-06-06T00:25:11.504+0000] {processor.py:161} INFO - Started process (PID=11220) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:25:11.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:25:11.506+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:25:11.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:25:12.073+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:25:12.111+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:25:12.111+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:25:12.128+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:25:12.128+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:25:12.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.654 seconds
+[2024-06-06T00:25:43.089+0000] {processor.py:161} INFO - Started process (PID=11292) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:25:43.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:25:43.093+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:25:43.093+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:25:43.696+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:25:43.833+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:25:43.833+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:25:43.852+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:25:43.851+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:25:43.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.800 seconds
+[2024-06-06T00:26:14.358+0000] {processor.py:161} INFO - Started process (PID=11372) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:26:14.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:26:14.360+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:26:14.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:26:14.870+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:26:14.908+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:26:14.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:26:14.928+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:26:14.927+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:26:14.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.597 seconds
+[2024-06-06T00:26:45.743+0000] {processor.py:161} INFO - Started process (PID=11445) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:26:45.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:26:45.746+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:26:45.745+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:26:46.427+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:26:46.468+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:26:46.468+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:26:46.496+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:26:46.496+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:26:46.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.784 seconds
+[2024-06-06T00:27:17.045+0000] {processor.py:161} INFO - Started process (PID=11525) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:27:17.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:27:17.047+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:27:17.047+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:27:17.584+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:27:17.624+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:27:17.623+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:27:17.641+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:27:17.641+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:27:17.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.634 seconds
+[2024-06-06T00:27:48.263+0000] {processor.py:161} INFO - Started process (PID=11597) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:27:48.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:27:48.267+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:27:48.267+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:27:48.890+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:27:48.926+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:27:48.926+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:27:48.944+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:27:48.944+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:27:48.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.718 seconds
+[2024-06-06T00:28:19.705+0000] {processor.py:161} INFO - Started process (PID=11677) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:28:19.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:28:19.708+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:28:19.707+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:28:20.234+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:28:20.278+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:28:20.277+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:28:20.300+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:28:20.300+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:28:20.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.629 seconds
+[2024-06-06T00:28:50.752+0000] {processor.py:161} INFO - Started process (PID=11750) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:28:50.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:28:50.754+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:28:50.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:28:51.305+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:28:51.344+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:28:51.343+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:28:51.363+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:28:51.362+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:28:51.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.645 seconds
+[2024-06-06T00:29:22.182+0000] {processor.py:161} INFO - Started process (PID=11830) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:29:22.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:29:22.184+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:29:22.184+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:29:22.734+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:29:22.773+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:29:22.773+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:29:22.792+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:29:22.792+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:29:22.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.642 seconds
+[2024-06-06T00:29:23.833+0000] {processor.py:161} INFO - Started process (PID=11833) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:29:23.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:29:23.835+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:29:23.835+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:29:24.387+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:29:24.422+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:29:24.421+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:29:24.445+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:29:24.445+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:29:24.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.651 seconds
+[2024-06-06T00:29:54.667+0000] {processor.py:161} INFO - Started process (PID=11913) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:29:54.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:29:54.669+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:29:54.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:29:55.217+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:29:55.248+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:29:55.247+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:29:55.271+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:29:55.271+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:29:55.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.630 seconds
+[2024-06-06T00:30:25.569+0000] {processor.py:161} INFO - Started process (PID=11985) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:30:25.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:30:25.571+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:30:25.571+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:30:26.038+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:30:26.074+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:30:26.074+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:30:26.092+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:30:26.092+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:30:26.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.551 seconds
+[2024-06-06T00:30:56.174+0000] {processor.py:161} INFO - Started process (PID=12057) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:30:56.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:30:56.176+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:30:56.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:30:56.216+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:30:56.212+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 10, in <module>
+    from weather_info_ETL import enviar_email, traer_datos_clima, crear_tabla_en_bd, insertar_data
+  File "/opt/airflow/dags/weather_info_ETL.py", line 198
+    rflow.operators.python_operator import PythonOperator
+                                    ^
+SyntaxError: invalid syntax
+[2024-06-06T00:30:56.217+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:30:56.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.076 seconds
+[2024-06-06T00:31:26.440+0000] {processor.py:161} INFO - Started process (PID=12135) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:31:26.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:31:26.442+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:31:26.442+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:31:26.458+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:31:26.456+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 10, in <module>
+    from weather_info_ETL import enviar_email, traer_datos_clima, crear_tabla_en_bd, insertar_data
+  File "/opt/airflow/dags/weather_info_ETL.py", line 198
+    rflow.operators.python_operator import PythonOperator
+                                    ^
+SyntaxError: invalid syntax
+[2024-06-06T00:31:26.459+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:31:26.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.043 seconds
+[2024-06-06T00:31:56.858+0000] {processor.py:161} INFO - Started process (PID=12206) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:31:56.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:31:56.860+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:31:56.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:31:56.879+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:31:56.876+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_entregable_fedebar.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_entregable_fedebar.py", line 10, in <module>
+    from weather_info_ETL import enviar_email, traer_datos_clima, crear_tabla_en_bd, insertar_data
+  File "/opt/airflow/dags/weather_info_ETL.py", line 198
+    rflow.operators.python_operator import PythonOperator
+                                    ^
+SyntaxError: invalid syntax
+[2024-06-06T00:31:56.880+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:31:56.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.053 seconds
+[2024-06-06T00:32:26.939+0000] {processor.py:161} INFO - Started process (PID=12285) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:32:26.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:32:26.941+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:32:26.941+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:32:27.412+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:32:27.508+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:32:27.507+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:32:27.523+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:32:27.523+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:32:27.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.616 seconds
+[2024-06-06T00:32:57.752+0000] {processor.py:161} INFO - Started process (PID=12357) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:32:57.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:32:57.755+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:32:57.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:32:58.311+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:32:58.352+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:32:58.352+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:32:58.373+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:32:58.373+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:32:58.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.652 seconds
+[2024-06-06T00:33:29.151+0000] {processor.py:161} INFO - Started process (PID=12437) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:33:29.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:33:29.154+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:33:29.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:33:29.634+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:33:29.671+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:33:29.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:33:29.694+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:33:29.694+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:33:29.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.570 seconds
+[2024-06-06T00:34:00.509+0000] {processor.py:161} INFO - Started process (PID=12509) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:34:00.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:34:00.512+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:34:00.511+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:34:01.044+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:34:01.084+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:34:01.084+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:34:01.106+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:34:01.106+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:34:01.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.635 seconds
+[2024-06-06T00:34:31.350+0000] {processor.py:161} INFO - Started process (PID=12581) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:34:31.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:34:31.352+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:34:31.352+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:34:31.851+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:34:31.890+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:34:31.890+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:34:31.908+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:34:31.908+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:34:31.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.584 seconds
+[2024-06-06T00:35:02.843+0000] {processor.py:161} INFO - Started process (PID=12661) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:35:02.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:35:02.845+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:35:02.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:35:03.334+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:35:03.370+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:35:03.369+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:35:03.388+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:35:03.388+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:35:03.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.572 seconds
+[2024-06-06T00:35:34.112+0000] {processor.py:161} INFO - Started process (PID=12740) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:35:34.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:35:34.114+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:35:34.114+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:35:34.600+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:35:34.641+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:35:34.641+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:35:34.659+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:35:34.658+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:35:34.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.574 seconds
+[2024-06-06T00:36:05.336+0000] {processor.py:161} INFO - Started process (PID=12814) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:36:05.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:36:05.339+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:36:05.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:36:05.849+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:36:05.883+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:36:05.882+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:36:05.898+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:36:05.898+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:36:05.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.598 seconds
+[2024-06-06T00:36:36.096+0000] {processor.py:161} INFO - Started process (PID=12886) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:36:36.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:36:36.099+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:36:36.099+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:36:36.687+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:36:36.732+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:36:36.731+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:36:36.751+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:36:36.751+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:36:36.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.689 seconds
+[2024-06-06T00:37:06.948+0000] {processor.py:161} INFO - Started process (PID=12966) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:37:06.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:37:06.951+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:37:06.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:37:07.477+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:37:07.518+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:37:07.518+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:37:07.539+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:37:07.538+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:37:07.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.619 seconds
+[2024-06-06T00:37:37.613+0000] {processor.py:161} INFO - Started process (PID=13038) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:37:37.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:37:37.616+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:37:37.616+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:37:38.122+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:37:38.158+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:37:38.157+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:37:38.176+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:37:38.176+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:37:38.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.599 seconds
+[2024-06-06T00:38:08.554+0000] {processor.py:161} INFO - Started process (PID=13118) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:38:08.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:38:08.556+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:38:08.556+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:38:09.195+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:38:09.238+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:38:09.237+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:38:09.271+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:38:09.271+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:38:09.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.753 seconds
+[2024-06-06T00:38:39.367+0000] {processor.py:161} INFO - Started process (PID=13190) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:38:39.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:38:39.369+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:38:39.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:38:39.915+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:38:39.961+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:38:39.961+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:38:39.981+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:38:39.980+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:38:40.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.646 seconds
+[2024-06-06T00:39:10.096+0000] {processor.py:161} INFO - Started process (PID=13262) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:39:10.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:39:10.099+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:39:10.099+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:39:10.678+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:39:10.722+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:39:10.721+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:39:10.743+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:39:10.743+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:39:10.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.681 seconds
+[2024-06-06T00:39:41.450+0000] {processor.py:161} INFO - Started process (PID=13344) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:39:41.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:39:41.452+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:39:41.452+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:39:41.990+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:39:42.028+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:39:42.027+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:39:42.047+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:39:42.047+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:39:42.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.626 seconds
+[2024-06-06T00:40:12.817+0000] {processor.py:161} INFO - Started process (PID=13416) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:40:12.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:40:12.819+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:40:12.819+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:40:13.592+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:40:13.627+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:40:13.626+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:40:13.651+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:40:13.651+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:40:13.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.863 seconds
+[2024-06-06T00:40:43.722+0000] {processor.py:161} INFO - Started process (PID=13501) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:40:43.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:40:43.724+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:40:43.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:40:44.237+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:40:44.273+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:40:44.273+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:40:44.294+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:40:44.294+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:40:44.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.600 seconds
+[2024-06-06T00:41:15.101+0000] {processor.py:161} INFO - Started process (PID=13575) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:41:15.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:41:15.109+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:41:15.107+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:41:15.736+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:41:15.774+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:41:15.774+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:41:15.796+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:41:15.796+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:41:15.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.727 seconds
+[2024-06-06T00:41:45.876+0000] {processor.py:161} INFO - Started process (PID=13660) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:41:45.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:41:45.878+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:41:45.878+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:41:46.458+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:41:46.495+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:41:46.494+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:41:46.517+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:41:46.517+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:41:46.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.672 seconds
+[2024-06-06T00:42:17.107+0000] {processor.py:161} INFO - Started process (PID=13732) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:42:17.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:42:17.110+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:42:17.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:42:17.701+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:42:17.735+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:42:17.734+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:42:17.753+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:42:17.753+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:42:17.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.675 seconds
+[2024-06-06T00:42:48.657+0000] {processor.py:161} INFO - Started process (PID=13813) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:42:48.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:42:48.659+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:42:48.659+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:42:49.393+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:42:49.432+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:42:49.431+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:42:49.457+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:42:49.456+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:42:49.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.830 seconds
+[2024-06-06T00:43:19.562+0000] {processor.py:161} INFO - Started process (PID=13888) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:43:19.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:43:19.564+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:43:19.564+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:43:20.160+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:43:20.204+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:43:20.204+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:43:20.224+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:43:20.223+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:43:20.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.702 seconds
+[2024-06-06T00:43:50.487+0000] {processor.py:161} INFO - Started process (PID=13963) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:43:50.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:43:50.490+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:43:50.490+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:43:51.373+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:43:51.428+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:43:51.427+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:43:51.483+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:43:51.483+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:43:51.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 1.069 seconds
+[2024-06-06T00:44:21.823+0000] {processor.py:161} INFO - Started process (PID=14043) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:44:21.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:44:21.826+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:44:21.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:44:22.425+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:44:22.461+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:44:22.460+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:44:22.484+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:44:22.484+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:44:22.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.688 seconds
+[2024-06-06T00:44:52.566+0000] {processor.py:161} INFO - Started process (PID=14115) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:44:52.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:44:52.568+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:44:52.567+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:44:53.155+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:44:53.200+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:44:53.199+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:44:53.223+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:44:53.223+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:44:53.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.687 seconds
+[2024-06-06T00:45:23.880+0000] {processor.py:161} INFO - Started process (PID=14194) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:45:23.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:45:23.883+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:45:23.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:45:24.413+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:45:24.450+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:45:24.450+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:45:24.478+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:45:24.477+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:45:24.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.630 seconds
+[2024-06-06T00:45:55.240+0000] {processor.py:161} INFO - Started process (PID=14269) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:45:55.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:45:55.243+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:45:55.243+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:45:55.682+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:45:55.727+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:45:55.726+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:45:55.748+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:45:55.748+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:45:55.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.539 seconds
+[2024-06-06T00:46:26.630+0000] {processor.py:161} INFO - Started process (PID=14343) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:46:26.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:46:26.632+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:46:26.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:46:27.174+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:46:27.214+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:46:27.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:46:27.245+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:46:27.245+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:46:27.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.649 seconds
+[2024-06-06T00:46:58.181+0000] {processor.py:161} INFO - Started process (PID=14426) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:46:58.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:46:58.183+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:46:58.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:46:58.585+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:46:58.620+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:46:58.620+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:46:58.641+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:46:58.641+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:46:58.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.485 seconds
+[2024-06-06T00:47:28.808+0000] {processor.py:161} INFO - Started process (PID=14500) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:47:28.810+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:47:28.812+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:47:28.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:47:29.379+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:47:29.432+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:47:29.431+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:47:29.455+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:47:29.455+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:47:29.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.684 seconds
+[2024-06-06T00:47:59.618+0000] {processor.py:161} INFO - Started process (PID=14582) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:47:59.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:47:59.621+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:47:59.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:48:00.433+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:48:00.495+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:48:00.494+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:48:00.544+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:48:00.543+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:48:00.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 1.002 seconds
+[2024-06-06T00:48:31.192+0000] {processor.py:161} INFO - Started process (PID=14654) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:48:31.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:48:31.195+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:48:31.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:48:31.672+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:48:31.715+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:48:31.715+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:48:31.738+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:48:31.737+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:48:31.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.573 seconds
+[2024-06-06T00:49:02.141+0000] {processor.py:161} INFO - Started process (PID=14726) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:49:02.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:49:02.144+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:49:02.144+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:49:02.610+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:49:02.658+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:49:02.657+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:49:02.687+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:49:02.687+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:49:02.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.594 seconds
+[2024-06-06T00:49:32.782+0000] {processor.py:161} INFO - Started process (PID=14806) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:49:32.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:49:32.785+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:49:32.785+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:49:33.335+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:49:33.384+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:49:33.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:49:33.414+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:49:33.414+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:49:33.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.668 seconds
+[2024-06-06T00:50:04.362+0000] {processor.py:161} INFO - Started process (PID=14879) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:50:04.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:50:04.365+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:50:04.365+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:50:04.827+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:50:04.868+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:50:04.868+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:50:04.891+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:50:04.891+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:50:04.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.569 seconds
+[2024-06-06T00:50:35.064+0000] {processor.py:161} INFO - Started process (PID=14955) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:50:35.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:50:35.067+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:50:35.066+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:50:35.679+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:50:35.725+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:50:35.725+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:50:35.755+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:50:35.755+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:50:35.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.935 seconds
+[2024-06-06T00:51:06.118+0000] {processor.py:161} INFO - Started process (PID=15041) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:51:06.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:51:06.121+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:51:06.120+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:51:06.597+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:51:06.636+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:51:06.635+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:51:06.795+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:51:06.795+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:51:06.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.701 seconds
+[2024-06-06T00:51:36.874+0000] {processor.py:161} INFO - Started process (PID=15120) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:51:36.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:51:36.876+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:51:36.876+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:51:37.315+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:51:37.368+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:51:37.368+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:51:37.528+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:51:37.528+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:51:37.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.681 seconds
+[2024-06-06T00:52:08.011+0000] {processor.py:161} INFO - Started process (PID=15200) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:52:08.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:52:08.015+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:52:08.014+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:52:08.545+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:52:08.586+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:52:08.585+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:52:08.751+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:52:08.750+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:52:08.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.775 seconds
+[2024-06-06T00:52:39.732+0000] {processor.py:161} INFO - Started process (PID=15273) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:52:39.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:52:39.734+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:52:39.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:52:40.236+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:52:40.285+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:52:40.284+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:52:40.432+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:52:40.431+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:52:40.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.739 seconds
+[2024-06-06T00:53:11.112+0000] {processor.py:161} INFO - Started process (PID=15354) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:53:11.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:53:11.115+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:53:11.114+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:53:11.529+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:53:11.704+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:53:11.704+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:53:11.722+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:53:11.722+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:53:11.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.645 seconds
+[2024-06-06T00:53:42.369+0000] {processor.py:161} INFO - Started process (PID=15426) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:53:42.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:53:42.372+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:53:42.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:53:42.847+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:53:43.030+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:53:43.029+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:53:43.048+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:53:43.048+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:53:43.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.711 seconds
+[2024-06-06T00:54:13.984+0000] {processor.py:161} INFO - Started process (PID=15507) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:54:13.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:54:13.988+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:54:13.987+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:54:14.625+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:54:14.665+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:54:14.664+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:54:14.684+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:54:14.684+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:54:14.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.732 seconds
+[2024-06-06T00:54:45.361+0000] {processor.py:161} INFO - Started process (PID=15579) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:54:45.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:54:45.364+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:54:45.363+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:54:45.990+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:54:46.026+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:54:46.025+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:54:46.051+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:54:46.051+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:54:46.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.722 seconds
+[2024-06-06T00:55:16.208+0000] {processor.py:161} INFO - Started process (PID=15651) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:55:16.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:55:16.210+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:55:16.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:55:16.863+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:55:16.907+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:55:16.906+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:55:16.925+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:55:16.925+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:55:16.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.742 seconds
+[2024-06-06T00:55:47.683+0000] {processor.py:161} INFO - Started process (PID=15732) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:55:47.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:55:47.685+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:55:47.685+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:55:48.152+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:55:48.183+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:55:48.182+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:55:48.199+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:55:48.199+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:55:48.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.550 seconds
+[2024-06-06T00:56:19.072+0000] {processor.py:161} INFO - Started process (PID=15804) to work on /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:56:19.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_entregable_fedebar.py for tasks to queue
+[2024-06-06T00:56:19.074+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:56:19.073+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:56:19.584+0000] {processor.py:840} INFO - DAG(s) 'ingestion_data' retrieved from /opt/airflow/dags/dag_entregable_fedebar.py
+[2024-06-06T00:56:19.618+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:56:19.618+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-06T00:56:19.636+0000] {logging_mixin.py:188} INFO - [2024-06-06T00:56:19.636+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestion_data to 2024-06-06 00:00:00+00:00, run_after=2024-06-07 00:00:00+00:00
+[2024-06-06T00:56:19.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_entregable_fedebar.py took 0.585 seconds
